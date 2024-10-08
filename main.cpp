@@ -28,8 +28,6 @@ int main( int argc , char * argv[]){
     // pmergesort->printData();
     auto en=std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> parallelMergeSortTime=en-st;
-    
-   
 
     std::cout<<"Merge Sort Time: "<<mergeSortTime.count()<<" seconds"<<std::endl;
     std::cout<<"Parallel Merge Sort Time: "<<parallelMergeSortTime.count()<<" seconds"<<std::endl;
