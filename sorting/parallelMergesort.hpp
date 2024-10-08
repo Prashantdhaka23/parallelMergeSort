@@ -15,7 +15,7 @@ class ParallelMergeSort {
       ParallelMergeSort(std::vector<int>* data);
       ~ParallelMergeSort();
       void parallelMergeSort(int low, int high);
-      void parallelMerge(int low, int mid, int high);
+      void Merge(int low, int mid, int high);
       void parallelSort();
       void printData();
     
